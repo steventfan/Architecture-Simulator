@@ -1,0 +1,16 @@
+ADD r1 r2 r3
+SUB r2 r3 r4
+MULT r3 r1 r5
+DIV r4 r3 r6
+LW r5 r4
+BEQZ r9 #3
+ADDI r3 r7 #1
+ADDI r2 r3 #5
+SW r5 r7
+SUBI r7 r8 #4
+SUBI r9 r10 #3
+ADDI r1 r11 #12
+SUBI r1 r1 #1
+SUBI r1 r1 #2
+BEQ r1 r6 #-2
+ADDI r1 r1 #3
